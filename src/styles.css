@@ -1,0 +1,139 @@
+:root {
+    background-color: #FFF;
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    border-right: 1px groove;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px groove;
+    border-right: 1px groove;
+}
+
+.nav-avatar {
+    width: 2.5em;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nav-status {
+    display: flex;
+
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 0.8em;
+}
+
+.nav div {
+    padding-left: 1em;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu i {
+    padding: 0.5em;
+    opacity: 50%;
+}
+
+
+.chat-button {
+    background-color: #a491d2;
+    padding: 1.5em 5em;
+    margin: 2em;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.chat-button:hover {
+    background-color: #CDC3E6;
+
+}
+
+.chat-button:focus {
+    background-color: #BEC1BB;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    padding: 0.2em 0;
+    border-top: 1px groove;
+}
+
+.avatar-img {
+    width: 4em;
+    height: auto;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.avatar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-body {
+    width: 20em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10em;
+    padding: 0 20px 0 20px;
+}
+
+.title-chat {
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 25px 0 25px;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+main span {
+    font-size: 1.3em;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
